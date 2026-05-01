@@ -26,25 +26,35 @@ Repository for working with tabular, vector, and raster GIS data using Python.
 ## Repository Structure
 [Brief description of folders and key files]
 
-
-
-
-
 ## Repository Structure
 
     .
     ├── README.md
     ├── .devcontainer
     │   ├── devcontainer.json
-    │   ├── Dockerfile
+    │   └── Dockerfile
     ├── data/
-    │   ├── neighborhood_samples.geojson
-    │   ├── temperature_readings.csv
-    │   └── weather_stations.csv
+    │   ├── cities/
+    │       └── ne_cities_us.geojson
+    │   ├── ecoregions/
+    │       └── epa_level3_western_us.geojson
+    │   ├── protected_areas/
+    │       └── national_parks_major.geojson
+    │   ├── temp/
+    │       ├── neighborhood_samples.geojson
+    │       ├── temperature_readings.csv
+    │       └── weather_stations.csv
     ├── notebooks/
     │   ├── pandas/
+    │       ├── neighborhood_samples.geojson
+    │       ├── temperature_readings.csv
+    │       └── weather_stations.csv
     │   ├── geopandas/
-    │   └── rasterio/
+    │       ├── neighborhood_samples.geojson
+    │       ├── temperature_readings.csv
+    │       └── weather_stations.csv
+    │   ├── rasterio/
+    │       ├── remote_sensing_workflow.ip
     ├── src/
     │   ├── pandas_basics.py
     │   ├── geopandas_basics.py
