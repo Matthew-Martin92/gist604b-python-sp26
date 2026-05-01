@@ -16,8 +16,14 @@ This project contains workable notebooks using Pandas, Geopandas, and Rasterio. 
 - Rasterio
 
 ## What I Did
-[3–5 bullet points summarizing the key tasks completed in this assignment.]
 
+- Completed notebooks in the pandas folder to load, explore, create functions to fileter and calculate environmental station data.
+- Completed notebooks in the Geopandas folder to do the following:
+    - download, load, and explore spatial data
+    - perform a transform and geometry options on the data
+    - perform spatial relationships and joins on data tables
+    - create visualizations on the data.
+      
 ## How to View / Run
 [Instructions for viewing the project. For example:
 - Link to live GitHub Pages site (if applicable)
