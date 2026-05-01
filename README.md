@@ -1,12 +1,13 @@
-# [Project Title]
+# Python for GIS  
 
-**Student:** [YOUR NAME]
-**Course:** GIST 604B – Open Source GIS
-**Module:** [MODULE NUMBER AND NAME]
-**University of Arizona**
+**Student:** Matthew Martin  
+**Course:** GIST 604B – Open Source GIS  
+**Module:** Module 3: Python GIS & Containerization  
+**University of Arizona**  
 
 ## Project Description
 [2–3 sentences describing what this project is about and what you built or analyzed.]
+Repository for working with tabular, vector, and raster GIS data using Python.  
 
 ## Tools and Technologies
 - [Tool 1, e.g. QGIS, PostGIS, GeoPandas, Leaflet]
@@ -26,9 +27,8 @@
 [Brief description of folders and key files]
 
 
-# GIST 604B – Python for GIS
 
-Repository for working with tabular, vector, and raster GIS data using Python.
+
 
 ## Repository Structure
 
