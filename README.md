@@ -6,13 +6,14 @@
 **University of Arizona**  
 
 ## Project Description
-[2–3 sentences describing what this project is about and what you built or analyzed.]
-Repository for working with tabular, vector, and raster GIS data using Python.  
+This project contains workable notebooks using Pandas, Geopandas, and Rasterio. It runs through tutorials in the notebooks to learn how to incorporate Python code in the repository. This code allows us to work with tabular, vector, and raster GIS data within the notebooks.
 
 ## Tools and Technologies
-- [Tool 1, e.g. QGIS, PostGIS, GeoPandas, Leaflet]
-- [Tool 2]
-- [Tool 3]
+- Python
+- Jupyter Notebooks
+- Geopandas
+- Pandas
+- Rasterio
 
 ## What I Did
 [3–5 bullet points summarizing the key tasks completed in this assignment.]
@@ -24,9 +25,7 @@ Repository for working with tabular, vector, and raster GIS data using Python.
 - How to open the map]
 
 ## Repository Structure
-[Brief description of folders and key files]
-
-## Repository Structure
+THe data folder contains the data used in the python code from the notebooks folders. The Pandas folder inlcudes Jupyter notebooks to teach and walk through the use of python and pandas GIS workflows. The Geopandas does similar workflows, using the Geopandas environment. Each of these folders contain notebooks to work through several tutorials. The src folder contains the code fort he funtions implemented in the workbooks. The test folder contains the code to test througout the notebooks.
 
     .
     ├── .devcontainer
@@ -72,9 +71,3 @@ Repository for working with tabular, vector, and raster GIS data using Python.
     ├── pyproject.toml
     └── uv.lock
 
-## Notes
-
-- Notebooks are for exploration and learning.
-- Final implementations are in `src/`.
-- Tests validate pandas and GeoPandas functionality.
-- Rasterio work is completed entirely in the notebook.
