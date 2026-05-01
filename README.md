@@ -29,7 +29,6 @@ Repository for working with tabular, vector, and raster GIS data using Python.
 ## Repository Structure
 
     .
-    ├── README.md
     ├── .devcontainer
     │   ├── devcontainer.json
     │   └── Dockerfile
@@ -46,15 +45,22 @@ Repository for working with tabular, vector, and raster GIS data using Python.
     │       └── weather_stations.csv
     ├── notebooks/
     │   ├── pandas/
-    │       ├── neighborhood_samples.geojson
-    │       ├── temperature_readings.csv
-    │       └── weather_stations.csv
+    │       ├── 01_function_load_and_explore_gis_data.ipynb
+    │       ├── 02_function_filter_environmental_data.ipynb
+    │       ├── 03_function_calculate_station_statistics.ipynb
+    │       ├── 04_function_join_station_data.ipynb
     │   ├── geopandas/
-    │       ├── neighborhood_samples.geojson
-    │       ├── temperature_readings.csv
-    │       └── weather_stations.csv
+    │       ├── 00_download_real_data.ipynb
+    │       ├── 01_function_load_spatial_data.ipynb
+    │       ├── 02_function_explore_properties.ipynb
+    │       ├── 03_function_transform_crs.ipynb
+    │       ├── 04_function_geometry_operations.ipynb
+    │       ├── 05_function_spatial_relationships.ipynb
+    │       ├── 06_function_spatial_joins.ipynb
+    │       ├── 07_function_overlay_and_visualize.ipynb
+    │       └── overlay_test.png
     │   ├── rasterio/
-    │       ├── remote_sensing_workflow.ip
+    │       └── remote_sensing_workflow.ip
     ├── src/
     │   ├── pandas_basics.py
     │   ├── geopandas_basics.py
@@ -62,6 +68,7 @@ Repository for working with tabular, vector, and raster GIS data using Python.
     ├── tests/
     │   ├── test_pandas_basics.py
     │   └── test_geopandas_basics.py
+    ├── README.md
     ├── pyproject.toml
     └── uv.lock
 
