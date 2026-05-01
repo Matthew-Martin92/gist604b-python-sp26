@@ -25,10 +25,10 @@ This project contains workable notebooks using Pandas, Geopandas, and Rasterio. 
     - create visualizations on the data.
       
 ## How to View / Run
-[Instructions for viewing the project. For example:
-- Link to live GitHub Pages site (if applicable)
-- How to run a Python script
-- How to open the map]
+To run the notebooks and python scripts:
+- Create a Codespaces of the repository.
+- work through the notebooks and run the blocks of python code using the arrow next to each block of code.
+- run the test using uv run pytest tests/test_[insert pandas or geopandas]_basics.py -v
 
 ## Repository Structure
 THe data folder contains the data used in the python code from the notebooks folders. The Pandas folder inlcudes Jupyter notebooks to teach and walk through the use of python and pandas GIS workflows. The Geopandas does similar workflows, using the Geopandas environment. Each of these folders contain notebooks to work through several tutorials. The src folder contains the code fort he funtions implemented in the workbooks. The test folder contains the code to test througout the notebooks.
